@@ -1,0 +1,31 @@
+name: Corrección al registro
+description: Corregir o completar una entrada de membresía
+title: "Corrección: "
+labels: ["correccion"]
+body:
+  - type: input
+    id: nombre
+    attributes:
+      label: Nombre de la persona
+    validations:
+      required: true
+  - type: dropdown
+    id: periodo
+    attributes:
+      label: Periodo
+      options:
+        - "UAI-Col 2018-2023"
+        - "AstroCO 2025-2026"
+    validations:
+      required: true
+  - type: textarea
+    id: correccion
+    attributes:
+      label: Qué hay que corregir
+      description: Clase de membresía, años, afiliación, ortografía del nombre, baja del registro...
+    validations:
+      required: true
+  - type: input
+    id: fuente
+    attributes:
+      label: De dónde sale el dato correcto
