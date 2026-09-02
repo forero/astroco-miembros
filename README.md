@@ -16,7 +16,7 @@ Las clases son las que se usan en 2025-2026: **Titular**, **Honorario**,
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="figuras/membresia-por-anio-oscuro.png">
-  <img src="figuras/membresia-por-anio-claro.png" alt="Membresía de AstroCO por año, apilada por clase de membresía: 32 miembros en 2018, 30 en 2019, 27 en 2020, 32 en 2021, 21 en 2022, 9 en 2023, ninguno en 2024, 29 en 2025 y 23 en 2026.">
+  <img src="figuras/membresia-por-anio-claro.png" alt="Membresía de AstroCO por año, apilada por clase de membresía: 32 miembros en 2018, 30 en 2019, 27 en 2020, 32 en 2021, 21 en 2022, 9 en 2023, ninguno en 2024, 29 en 2025 y 17 en 2026.">
 </picture>
 
 | Año | Titular | Honorario | Socio Estudiante | Socio No-Estudiante | Total |
@@ -29,7 +29,7 @@ Las clases son las que se usan en 2025-2026: **Titular**, **Honorario**,
 | 2023 | 5 | 4 | 0 | 0 | 9 |
 | 2024 | 0 | 0 | 0 | 0 | 0 |
 | 2025 | 18 | 5 | 4 | 2 | 29 |
-| 2026 | 15 | 2 | 4 | 2 | 23 |
+| 2026 | 15 | 2 | 0 | 0 | 17 |
 
 Tabla y figura generadas automáticamente; ver [RESUMEN.md](RESUMEN.md).
 
@@ -95,8 +95,12 @@ Estas son lecturas de la fuente, no datos originales. Corregirlas es bienvenido.
    en 2024 no hubo membresía activa, así que su registro se recorta a 2023
    (`rango supuesto recortado`).
 4. **2025 vs 2026.** El sitio actual lista los miembros vigentes y marca con
-   `*` la membresía actualizada en 2026. Se asume que quienes no llevan `*`
-   renovaron por última vez en 2025.
+   `*` a cada persona cuya membresía se actualizó en 2026. En 2026 se cuentan
+   **solo las personas con asterisco**; quienes no lo llevan renovaron por
+   última vez en 2025. El `*Membresía actualizada 2026` que cierra cada bloque
+   del sitio es la leyenda de ese marcador, no una marca que aplique al grupo
+   completo: por eso los Socios Estudiantes y los Socios No-Estudiantes, que no
+   llevan asterisco individual, aparecen en cero en 2026.
 5. **Sin años.** Lauren Flor y Jorge Arias de Greiff aparecen en la lista de
    UAI-Col sin años; no cuentan en ningún año hasta que se registren.
 6. Los nombres se transcriben como en la fuente, incluidos posibles errores de
