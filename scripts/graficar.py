@@ -54,13 +54,15 @@ def graficar(modo, anios, series, totales):
         v = series[clase]
         ax.bar(x, v, bottom=base, width=0.62, label=clase, color=color,
                edgecolor=t["surface"], linewidth=1.6, zorder=3)
-        # Etiqueta directa dentro del segmento: la regla de relieve exige
+        # Etiqueta directa en cada segmento no vacío: la regla de relieve exige
         # etiquetas visibles porque aqua y amarillo no alcanzan 3:1 en claro.
+        # La tinta va en blanco sobre azul, naranja y aqua, y en negro sobre
+        # amarillo, que es el único slot claro de la paleta.
+        tinta = "#0b0b0b" if clase == "Socio No-Estudiante" else "#ffffff"
         for xi, (vi, bi) in enumerate(zip(v, base)):
-            if vi >= 3:
+            if vi:
                 ax.text(xi, bi + vi / 2, str(vi), ha="center", va="center",
-                        fontsize=8.5, color="#ffffff" if clase != "Socio No-Estudiante" else "#0b0b0b",
-                        zorder=4)
+                        fontsize=8.5 if vi > 1 else 7, color=tinta, zorder=4)
         base = [b + vi for b, vi in zip(base, v)]
 
     for xi, total in zip(x, totales):
