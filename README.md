@@ -14,6 +14,11 @@ El registro cubre dos periodos:
 Las clases son las que se usan en 2025-2026: **Titular**, **Honorario**,
 **Socio Estudiante** y **Socio No-Estudiante**.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="figuras/membresia-por-anio-oscuro.png">
+  <img src="figuras/membresia-por-anio-claro.png" alt="Membresía de AstroCO por año, apilada por clase de membresía: 32 miembros en 2018, 30 en 2019, 27 en 2020, 32 en 2021, 21 en 2022, 9 en 2023, ninguno en 2024, 29 en 2025 y 23 en 2026.">
+</picture>
+
 | Año | Titular | Honorario | Socio Estudiante | Socio No-Estudiante | Total |
 |---|---|---|---|---|---|
 | 2018 | 22 | 4 | 6 | 0 | 32 |
@@ -26,7 +31,7 @@ Las clases son las que se usan en 2025-2026: **Titular**, **Honorario**,
 | 2025 | 18 | 5 | 4 | 2 | 29 |
 | 2026 | 15 | 2 | 4 | 2 | 23 |
 
-Tabla generada automáticamente; ver [RESUMEN.md](RESUMEN.md).
+Tabla y figura generadas automáticamente; ver [RESUMEN.md](RESUMEN.md).
 
 ## Estructura del repositorio
 
@@ -36,14 +41,17 @@ data/fuente-2025-2026.csv     Registro AstroCO/ACCEFYN actual
 data/membresia-por-anio.csv   Derivado: una fila por (persona, año)
 data/resumen-por-anio.csv     Derivado: conteos por año y clase
 RESUMEN.md                    Derivado: la tabla de arriba
+figuras/                      Gráfica de membresía por año (modo claro y oscuro)
 scripts/construir.py          Genera los tres archivos derivados
+scripts/graficar.py           Genera las figuras
 ```
 
 Los archivos `fuente-*.csv` son los únicos que se editan a mano. Después de
 cualquier cambio:
 
 ```bash
-python3 scripts/construir.py
+python3 scripts/construir.py   # tablas derivadas
+python3 scripts/graficar.py    # figuras (requiere matplotlib)
 ```
 
 ### Columnas de `data/fuente-2018-2023.csv`
