@@ -16,7 +16,7 @@ Las clases son las que se usan en 2025-2026: **Titular**, **Honorario**,
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="figuras/membresia-por-anio-oscuro.png">
-  <img src="figuras/membresia-por-anio-claro.png" alt="Membresía de AstroCO por año, apilada por clase de membresía: 32 miembros en 2018, 30 en 2019, 27 en 2020, 32 en 2021, 21 en 2022, 9 en 2023, ninguno en 2024, 29 en 2025 y 17 en 2026.">
+  <img src="figuras/membresia-por-anio-claro.png" alt="Membresía de AstroCO por año, apilada por clase de membresía: 32 miembros en 2018, 30 en 2019, 27 en 2020, 32 en 2021, 22 en 2022, 9 en 2023, ninguno en 2024, 29 en 2025 y 17 en 2026.">
 </picture>
 
 | Año | Titular | Honorario | Socio Estudiante | Socio No-Estudiante | Total |
@@ -25,7 +25,7 @@ Las clases son las que se usan en 2025-2026: **Titular**, **Honorario**,
 | 2019 | 22 | 5 | 3 | 0 | 30 |
 | 2020 | 21 | 6 | 0 | 0 | 27 |
 | 2021 | 23 | 7 | 2 | 0 | 32 |
-| 2022 | 13 | 7 | 1 | 0 | 21 |
+| 2022 | 14 | 7 | 1 | 0 | 22 |
 | 2023 | 5 | 4 | 0 | 0 | 9 |
 | 2024 | 0 | 0 | 0 | 0 | 0 |
 | 2025 | 18 | 5 | 4 | 2 | 29 |
@@ -102,7 +102,9 @@ Estas son lecturas de la fuente, no datos originales. Corregirlas es bienvenido.
    completo: por eso los Socios Estudiantes y los Socios No-Estudiantes, que no
    llevan asterisco individual, aparecen en cero en 2026.
 5. **Sin años.** Lauren Flor y Jorge Arias de Greiff aparecen en la lista de
-   UAI-Col sin años; no cuentan en ningún año hasta que se registren.
+   UAI-Col sin años. La coordinación indica que Lauren Flor entra en 2022, así
+   que se registra ese año; Jorge Arias de Greiff, miembro honorario
+   institucional, sigue sin años y no cuenta en ninguno.
 6. Los nombres se transcriben como en la fuente, incluidos posibles errores de
    digitación (por ejemplo `Carlos Eduerdo Cedeño Montaña`).
 
